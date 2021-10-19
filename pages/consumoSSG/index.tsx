@@ -1,8 +1,8 @@
 import { GetStaticProps } from "next";
 
-const Consumo: React.FC = () => {
+const Consumo: React.FC = (props: any) => {
 
-    return <h1>data atual</h1>
+    return <h1>data atual{props.date}</h1>
 }
 
 
