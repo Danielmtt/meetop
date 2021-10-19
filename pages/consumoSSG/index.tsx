@@ -1,9 +1,9 @@
-// import { GetStaticProps } from "next";
+import { GetStaticProps } from "next";
 
-// const Consumo: React.FC = (props: any) => {
+const Consumo: React.FC = () => {
 
-//     return <h1>data atual = {props.date}</h1>
-// }
+    return <h1>data atual</h1>
+}
 
 
 // export const getStaticProps: GetStaticProps = async () => {
