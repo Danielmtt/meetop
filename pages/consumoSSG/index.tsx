@@ -20,4 +20,4 @@ const Consumo: React.FC = () => {
 //     }
 // }
 
-// export default Consumo;
+export default Consumo;
