@@ -6,18 +6,18 @@ const Consumo: React.FC = () => {
 }
 
 
-// export const getStaticProps: GetStaticProps = async () => {
+export const getStaticProps: GetStaticProps = async () => {
 
-//     const resp = await fetch("http://localhost:3000/api/hello");
-//     const data = await resp.json();
+    const resp = await fetch("https://meetup-jade.vercel.app/api/hello");
+    const data = await resp.json();
 
 
-//     return {
-//         props: {
-//             date: data.date
-//         },
-//         revalidate: 10
-//     }
-// }
+    return {
+        props: {
+            date: data.date
+        },
+        revalidate: 10
+    }
+}
 
 export default Consumo;
